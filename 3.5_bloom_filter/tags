@@ -1,0 +1,20 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+BloomFilter	BloomFilter.cpp	/^BloomFilter::BloomFilter(int n)$/;"	f	class:BloomFilter
+BloomFilter	BloomFilter.hpp	/^class BloomFilter$/;"	c
+BloomFilter_hpp	BloomFilter.hpp	/^#define BloomFilter_hpp$/;"	d
+CXX	Makefile	/^CXX = c++$/;"	m
+CXXFLAGS	Makefile	/^CXXFLAGS = -Wall -Wextra -Werror -std=c++11$/;"	m
+NAME	Makefile	/^NAME = a.out$/;"	m
+OBJS	Makefile	/^OBJS = $(SRCS:.cpp=.o)$/;"	m
+SRCS	Makefile	/^SRCS = main.cpp\\$/;"	m
+hash	BloomFilter.cpp	/^BloomFilter::hash(int num, int key)$/;"	f	class:BloomFilter
+insert	BloomFilter.cpp	/^void BloomFilter::insert(int key)$/;"	f	class:BloomFilter
+lookup	BloomFilter.cpp	/^void BloomFilter::lookup(int key)$/;"	f	class:BloomFilter
+m_data	BloomFilter.hpp	/^			unsigned long long m_data;$/;"	m	class:BloomFilter
+m_nBits	BloomFilter.hpp	/^			int m_nBits;$/;"	m	class:BloomFilter
+main	main.cpp	/^int main(void)$/;"	f
