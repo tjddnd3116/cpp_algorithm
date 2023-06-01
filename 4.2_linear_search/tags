@@ -1,0 +1,20 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+BinarySearch	BinarySearch.hpp	/^class BinarySearch$/;"	c
+BinarySearch_hpp	BinarySearch.hpp	/^#define BinarySearch_hpp$/;"	d
+CXX	Makefile	/^CXX = c++$/;"	m
+CXXFLAGS	Makefile	/^CXXFLAGS = -Wall -Wextra -Werror -std=c++11 -O3$/;"	m
+LinearSearch	LinearSearch.hpp	/^class LinearSearch$/;"	c
+LinearSearch_hpp	LinearSearch.hpp	/^#define LinearSearch_hpp$/;"	d
+NAME	Makefile	/^NAME = a.out$/;"	m
+OBJS	Makefile	/^OBJS = $(SRCS:.cpp=.o)$/;"	m
+SRCS	Makefile	/^SRCS = main.cpp\\$/;"	m
+binarySearch	BinarySearch.cpp	/^BinarySearch::binarySearch(int n, std::vector<int>& s)$/;"	f	class:BinarySearch
+linearSearch	LinearSearch.cpp	/^LinearSearch::linearSearch(int n, std::vector<int>& s)$/;"	f	class:LinearSearch
+main	main.cpp	/^int main(void)$/;"	f
+runLargeSearchTest	main.cpp	/^void runLargeSearchTest(int size, int n)$/;"	f
+runSmallSearchTest	main.cpp	/^void runSmallSearchTest(void)$/;"	f

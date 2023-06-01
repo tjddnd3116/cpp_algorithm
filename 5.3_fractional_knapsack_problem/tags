@@ -1,0 +1,22 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+CXX	Makefile	/^CXX = c++$/;"	m
+CXXFLAGS	Makefile	/^CXXFLAGS = -Wall -Wextra -Werror -std=c++20$/;"	m
+NAME	Makefile	/^NAME = a.out$/;"	m
+OBJS	Makefile	/^OBJS = $(SRCS:.cpp=.o)$/;"	m
+Object	Object.cpp	/^Object::Object(int i, int w, double v)$/;"	f	class:Object
+Object	Object.hpp	/^class Object$/;"	c
+Object_hpp	Object.hpp	/^#define Object_hpp$/;"	d
+SRCS	Makefile	/^SRCS = main.cpp\\$/;"	m
+fill_knapsack	main.cpp	/^auto fill_knapsack(std::vector<Object>& objects, int knapsack_capacity)$/;"	f
+id	Object.hpp	/^	  int id;$/;"	m	class:Object
+main	main.cpp	/^int main(void)$/;"	f
+operator <	Object.hpp	/^	  inline bool operator< (const Object& obj) const$/;"	f	class:Object
+operator <<	Object.cpp	/^std::ostream& operator<< (std::ostream& os, const Object& obj)$/;"	f
+value	Object.hpp	/^	  double value;$/;"	m	class:Object
+value_per_unit_weight	Object.hpp	/^	  double value_per_unit_weight;$/;"	m	class:Object
+weight	Object.hpp	/^	  int weight;$/;"	m	class:Object

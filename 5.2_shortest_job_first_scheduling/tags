@@ -1,0 +1,17 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+CXX	Makefile	/^CXX = c++$/;"	m
+CXXFLAGS	Makefile	/^CXXFLAGS = -Wall -Wextra -Werror -std=c++20$/;"	m
+NAME	Makefile	/^NAME = a.out$/;"	m
+OBJS	Makefile	/^OBJS = $(SRCS:.cpp=.o)$/;"	m
+SRCS	Makefile	/^SRCS = main.cpp$/;"	m
+ShortestJobFirstScheduling	ShortestJobFirstScheduling.hpp	/^class ShortestJobFirstScheduling$/;"	c
+ShortestJobFirstScheduling_hpp	ShortestJobFirstScheduling.hpp	/^#define ShortestJobFirstScheduling_hpp$/;"	d
+compute_and_print_waiting_times	ShortestJobFirstScheduling.hpp	/^	  static void compute_and_print_waiting_times(std::vector<T>& service_times)$/;"	f	class:ShortestJobFirstScheduling
+compute_waiting_times	ShortestJobFirstScheduling.hpp	/^	  static auto compute_waiting_times(std::vector<T>& service_times)$/;"	f	class:ShortestJobFirstScheduling
+main	main.cpp	/^int main(void)$/;"	f
+print_vector	ShortestJobFirstScheduling.hpp	/^	  static void print_vector(std::vector<T>& vec)$/;"	f	class:ShortestJobFirstScheduling
